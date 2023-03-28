@@ -1,0 +1,103 @@
+@media all and (max-width: 992px) {
+  body {
+    width: 100%;
+    margin: 5px;
+  }
+}
+@media all and (max-width: 768px) {
+  .contacts > ul {
+    margin-left: 0;
+  }
+  .contact_icon_list {
+    margin: 10px 20px;
+  }
+  .header_list > a {
+    font-size: 13px;
+  }
+}
+@media all and (max-width: 576px) {
+  body {
+    width: 127%;
+  }
+  .header_list > a {
+    height: ;
+  }
+  .header > ul {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media all and (max-width: 320px) {
+  body {
+    width: 225%;
+  }
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts > h2 {
+    font-size: 40px;
+  }
+  .contacts > ul {
+    font-size: 28px;
+  }
+  .header_logo > p {
+    font-size: 25px;
+  }
+  .header_list {
+    margin: 5px;
+    height: 20px;
+  }
+  #mylist {
+    margin-right: 5px;
+  }
+  .header_list > a {
+    font-size: 25px;
+  }
+  .contact_icon_item {
+    width: 85px;
+    height: 85px;
+  }
+  .experience {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience > h2 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .job_place {
+    width: 79%;
+    padding-bottom: 0;
+    font-size: 30px;
+  }
+  .experience_list {
+    width: 100%;
+  }
+  .experience_list > li {
+    width: 100%;
+    font-size: 30px;
+  }
+  .skills,
+  .education {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills > h2 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .skills_list {
+    width: 100%;
+    font-size: 30px;
+  }
+  .education > h2 {
+    font-size: 40px;
+    margin: 5px;
+  }
+  .education_list {
+    width: 100%;
+    font-size: 30px;
+  }
+}
